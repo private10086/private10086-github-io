@@ -11,11 +11,6 @@ html body {
     background-color: #fff;
 }
 
-input {
-    background: none;
-    color: #5E5E5E;
-    font-size: 14px
-}
 
 a {
     text-decoration: none;
@@ -33,9 +28,6 @@ a:focus {
 ul li {
     list-style: none
 }
-
-
-
 
 
 .text_center {
@@ -229,15 +221,6 @@ nav.top_nav {
     margin: 0 0 80px 0;
 }
 
-.qr_code {
-    display: none;
-    top: -166px;
-}
-
-
-
-
-
 .icon_social_li {
     width: 40px;
     height: 40px;
@@ -351,18 +334,6 @@ nav.top_nav {
 }
 
 
-
-.logo_white {
-    background: url(../images/logo_bg_white.svg) no-repeat;
-    background-size: contain;
-    width: 405px;
-    height: 100px;
-    top: 10%;
-    left: 10%;
-}
-
-
-
 @media screen and (min-width:1200px) and (max-width:1681px) {
     .top_wrap {
         overflow: hidden;
@@ -414,11 +385,6 @@ nav.top_nav {
     .search_wrap form button {
         height: 100px;
         width: 100px;
-    }
-
-    #closeSearch {
-        display: block;
-        background-image: url(../images/icon_close.png);
     }
 
     #btnSearch {
